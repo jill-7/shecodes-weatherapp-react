@@ -53,14 +53,14 @@ h1 {
     .Weather {
         margin-left: -40px;
         width: 90vw;
-        height: 100vh;
+        height: 90vh;
         overflow-x: hidden;
         overflow-y: hidden;
         margin-top: -28px;
        
     }
     .search {
-        width: 140px;
+        width: 160px;
     }
     .submit {
         width: 80px;
@@ -70,11 +70,12 @@ h1 {
         
     }
     img {
-        margin-left: 5px;
+        margin-left: 15px !important;
         width: 60px;
+        margin-bottom: -50px !important;
     }
     .temp {
-        margin-top: -50px !important;
+        margin-top: -5px !important;
     }
     
     .footer {
@@ -82,7 +83,7 @@ h1 {
     }
     .degrees {
         font-size: 40px !important;
-        margin-left: 110px !important;
+        margin-left: 73px !important;
           
     }
     .celcius {
