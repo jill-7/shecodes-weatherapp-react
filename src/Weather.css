@@ -49,13 +49,14 @@ h1 {
     font-weight: 500;
     margin-top: -10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .Weather {
         margin: 0 auto;
-        width: 90vw;
+        width: 100vw;
+        height: 100vh;
     }
     .search {
-        width: 250px;
+        width: 200px;
     }
     .submit {
         width: 80px;
@@ -70,11 +71,19 @@ h1 {
     }
     .temp {
         
-        margin-top: -70px;
+        margin-top: -40px;
     }
     .footer {
         text-align: center;
     }
+    .degrees {
+        font-size: 40px;
+        margin-right: -150px;   
+    }
+    .celcius {
+        margin-left: 50px;
+    }
+    
     
 }
 .description {
@@ -90,7 +99,8 @@ h1 {
     margin-top: -90px;
 }
 img {
-    margin-left: 60px;
+    margin-left: 55px;
+    width: 60px;
 }
 .degrees {
     color: #212121;
