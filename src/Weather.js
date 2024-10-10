@@ -61,7 +61,7 @@ export default function Weather(props){
                     
                 </div>
             </div>
-            <p className="footer">This project was coded by <a href="https://github.com/jill-7">Jilloh</a> and is <a href="https://github.com/jill-7/shecodes-weatherapp-react">open sourced on Github</a> and <a href="https://app.netlify.com/sites/teal-arithmetic-796dd8/deploys/67071c97bd9ce42a3e25df04">hosted by Netlify</a></p>
+            <p className="footer">This project was coded by <a href="https://github.com/jill-7">Jilloh</a> and is <a href="https://github.com/jill-7/shecodes-weatherapp-react">open sourced on Github</a> and <a href="https://teal-arithmetic-796dd8.netlify.app/">hosted by Netlify</a></p>
 
         </div>
     )
