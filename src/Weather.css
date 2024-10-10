@@ -49,7 +49,7 @@ h1 {
     font-weight: 500;
     margin-top: -10px;
 }
-@media (max-width: 600px) {
+@media (max-width: 520px) {
     .Weather {
         margin: 0 auto;
         width: 90vw;
