@@ -49,11 +49,11 @@ h1 {
     font-weight: 500;
     margin-top: -10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .Weather {
         margin: 0 auto;
-        width: 80vw;
-        height: 90vh;
+        width: 90vw;
+        height: 100vh;
         overflow-x: hidden;
        
     }
