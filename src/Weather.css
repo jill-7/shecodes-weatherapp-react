@@ -51,10 +51,12 @@ h1 {
 }
 @media (max-width: 720px) {
     .Weather {
-        margin: 0 auto;
+        margin-left: -40px;
         width: 90vw;
         height: 100vh;
         overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: -28px;
        
     }
     .search {
