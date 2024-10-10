@@ -58,7 +58,7 @@ h1 {
        
     }
     .search {
-        width: 200px;
+        width: 140px;
     }
     .submit {
         width: 80px;
@@ -68,8 +68,8 @@ h1 {
         
     }
     img {
-        margin-left: 15px;
-        width: 60px;
+        margin-left: 5px;
+        width: 40px;
     }
     .temp {
         margin-top: -50px !important;
@@ -79,8 +79,8 @@ h1 {
         text-align: center;
     }
     .degrees {
-        font-size: 40px !important;
-        margin-left: 110px !important;
+        font-size: 20px !important;
+        margin-left: 80px !important;
           
     }
     .celcius {
