@@ -4,7 +4,7 @@
   width: 100vw;
   padding: 60px;
 }
-@media (max-width: 520px) {
+@media (max-width: 720px) {
   .App {
     width: 100vw;
     height: 100vh;

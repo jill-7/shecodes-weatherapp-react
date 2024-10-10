@@ -49,7 +49,7 @@ h1 {
     font-weight: 500;
     margin-top: -10px;
 }
-@media (max-width: 520px) {
+@media (max-width: 720px) {
     .Weather {
         margin: 0 auto;
         width: 90vw;
@@ -69,7 +69,7 @@ h1 {
     }
     img {
         margin-left: 5px;
-        width: 40px;
+        width: 60px;
     }
     .temp {
         margin-top: -50px !important;
@@ -79,8 +79,8 @@ h1 {
         text-align: center;
     }
     .degrees {
-        font-size: 20px !important;
-        margin-left: 80px !important;
+        font-size: 40px !important;
+        margin-left: 110px !important;
           
     }
     .celcius {
