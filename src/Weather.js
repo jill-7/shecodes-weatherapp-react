@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import "./Weather.css";
 import Calendar from "./Calendar";
+import Conversion from "./Conversion";
 
 export default function Weather(props){
     const[ready, setReady] = useState(false);
@@ -57,11 +58,17 @@ export default function Weather(props){
                     <p className="description">Humidity: <span className="speed">{weatherData.humidity}%</span>, Wind: <span className="speed">{weatherData.wind} km/h</span></p>
                 </div>
                 <div className="col-6">
-                    <img src={weatherData.iconURl} alt="weather icons" /> <div className="temp"><span className="degrees">{Math.round(weatherData.temperature)}</span><span className="celcius">°C</span></div>
+                    <img src={weatherData.iconURl} alt="weather icons" /> 
+                    <div className="temp">
+                        <Conversion degrees= {Math.round(weatherData.temperature)}/>
+                    </div>
                     
                 </div>
             </div>
-            <p className="footer">This project was coded by <a href="https://github.com/jill-7" target="_blank" rel="noreferrer">Jilloh</a> and is <a href="https://github.com/jill-7/shecodes-weatherapp-react" target="_blank" rel="noreferrer">open sourced on Github</a> and <a href="https://teal-arithmetic-796dd8.netlify.app/" target="_blank" rel="noreferrer">hosted by Netlify</a></p>
+            <p className="footer">This project was coded by 
+                <a href="https://github.com/jill-7" target="_blank" rel="noreferrer">Jilloh</a> and is 
+                <a href="https://github.com/jill-7/shecodes-weatherapp-react" target="_blank" rel="noreferrer">open sourced on Github</a> and 
+                <a href="https://teal-arithmetic-796dd8.netlify.app/" target="_blank" rel="noreferrer">hosted by Netlify</a></p>
 
         </div>
     )
