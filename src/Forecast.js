@@ -17,9 +17,6 @@ export default function Forecast(props) {
         setForecastData(response.data.daily);
         setLoading(true);
     }
-    
-    
-
 
     if (loading) {
     

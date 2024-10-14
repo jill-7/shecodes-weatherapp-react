@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Forecastday(props) {
    function chosenDay() {
-    let today = new Date(props.details.temperature.day * 1000);
+    let today = new Date(props.details.time * 1000);
     let day = today.getDay();
     let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
