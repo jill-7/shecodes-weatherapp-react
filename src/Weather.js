@@ -3,6 +3,7 @@ import axios from "axios";
 import "./Weather.css";
 import Calendar from "./Calendar";
 import Conversion from "./Conversion";
+import Forecast from "./Forecast";
 
 export default function Weather(props){
     const[ready, setReady] = useState(false);
@@ -65,10 +66,11 @@ export default function Weather(props){
                     
                 </div>
             </div>
+            <Forecast city= {weatherData.city}  />
             <p className="footer">This project was coded by 
-                <a href="https://github.com/jill-7" target="_blank" rel="noreferrer">Jilloh</a> and is 
-                <a href="https://github.com/jill-7/shecodes-weatherapp-react" target="_blank" rel="noreferrer">open sourced on Github</a> and 
-                <a href="https://teal-arithmetic-796dd8.netlify.app/" target="_blank" rel="noreferrer">hosted by Netlify</a></p>
+                <a href="https://github.com/jill-7" target="_blank" rel="noreferrer"> Jilloh</a> and is 
+                <a href="https://github.com/jill-7/shecodes-weatherapp-react" target="_blank" rel="noreferrer"> open sourced on Github</a> and 
+                <a href="https://teal-arithmetic-796dd8.netlify.app/" target="_blank" rel="noreferrer"> hosted by Netlify</a></p>
 
         </div>
     )
